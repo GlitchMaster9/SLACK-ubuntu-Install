@@ -1,0 +1,29 @@
+
+The Snaps are software packages that contain all the dependencies and files to run. These packages can be installed via the Ubuntu Software Center or via the terminal. 
+
+In fact, Slack is not an open source application and, for this reason, it is not included in the official Ubuntu repositories.
+
+First, connect to your machine via an SSH connection. If you haven't done so yet, following our guide is recommended to  connect securely with the SSH protocol. In case of a local computer, go to the next step and open your machine terminal.
+
+Once inside, run the command:
+
+$ sudo snap install slack --classic
+
+In this way, Slack will be installed on your computer and it will be possible to use it right away. In addition, the software will automatically update when necessary.
+
+Certainly, the installation can be performed by searching for the program on the Ubuntu Software Center.
+Installing the software via the Deb package
+
+From the Slack download page, the latest .deb package can be viewed and downloaded using the wget command ,  for example:
+
+$ 
+wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.12.2-amd64.deb
+
+Once the download is completed, simply open the file and follow the installation wizard. To install the program provide some permissions and preferences.
+
+With the installation of Slack, the Skype libraries, which can later be updated through the Ubuntu Update Manager, are usually also installed too.
+Starting Slack
+
+Now that Slack has been installed, start the software from the command line by simply typing:
+
+$ slack
